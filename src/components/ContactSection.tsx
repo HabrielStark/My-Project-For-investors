@@ -32,9 +32,9 @@ export default function ContactSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="section-heading">Get in Touch</h2>
+          <h2 className="section-heading">Свяжитесь с нами</h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Ready to transform your ideas into reality? Let's start the conversation
+            Готовы превратить ваши идеи в реальность? Давайте начнем диалог
           </p>
         </motion.div>
 
@@ -46,7 +46,7 @@ export default function ContactSection() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-2xl font-bold mb-4 gradient-text">Contact Information</h3>
+              <h3 className="text-2xl font-bold mb-4 gradient-text">Контактная информация</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <svg className="w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -64,11 +64,11 @@ export default function ContactSection() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold mb-4 gradient-text">Office Hours</h3>
+              <h3 className="text-2xl font-bold mb-4 gradient-text">Рабочие часы</h3>
               <p className="text-gray-300">
-                Monday - Friday: 9:00 AM - 6:00 PM<br />
-                Saturday: 10:00 AM - 4:00 PM<br />
-                Sunday: Closed
+                Понедельник - Пятница: 9:00 - 18:00<br />
+                Суббота: 10:00 - 16:00<br />
+                Воскресенье: Выходной
               </p>
             </div>
           </motion.div>
@@ -82,7 +82,7 @@ export default function ContactSection() {
           >
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                Name
+                Имя
               </label>
               <input
                 type="text"
@@ -108,7 +108,7 @@ export default function ContactSection() {
             </div>
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                Message
+                Сообщение
               </label>
               <textarea
                 id="message"
@@ -125,7 +125,7 @@ export default function ContactSection() {
               type="submit"
               className="button-primary w-full"
             >
-              Send Message
+              Отправить сообщение
             </motion.button>
           </motion.form>
         </div>

@@ -1,0 +1,23 @@
+{
+  "name": "AI Agency",
+  "short_name": "AI Agency",
+  "description": "Революционная платформа для автоматизированной разработки IT-решений",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "/logogo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logogo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "ru",
+  "dir": "ltr"
+} 
